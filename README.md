@@ -71,3 +71,35 @@ Layer 7 Application: Get/10.0.0.3.80 - HTTP Header, Cookies, Content-Type,...
     HTTP SSH FTP(truyền file) Telnet SMTP IMAP/POP
 
 ## UDP - User Datagram Protocol
+- Layer 4 Transport: UDP
+
+- Works like TCP but skip the error checking process
+- If packets are missed, the sender will not resend
+
+    (Advantages)
+    + Small Package : kích thước nhỏ
+    + Less Bandwidth : ít băng thông hơn
+    + Fasster than TCP : nhanh hơn TCP
+    + Stateless : không trạng thái
+    (Defect)
+    + No Acknowledgement : không cung cấp cơ chế báo nhận
+    + No Guaranteed Delivery : không cung cấp cơ chế đảm bảo tin nhắn
+    + Connectionless : không duy trì kết nối connectionless
+    + No Ordered Package : không đảm bảo thứ tự nhập gói tin
+    + No flow control : không cung cấp cơ chế kiểm soát luồng
+    + No congestion control : không kiểm soát tắc nghẽn
+    + Security : không an ninh :v
+
+    (use TCP with)
+    TFTP RTSP SNP DNS
+    Streaming Video, Gaming Online
+
+## HTTP - Hyper Text Transfer Protocol
+- Layer 7 Application: HTTP ver1.0 ver1.1 ver2.0 ver3.0(QUIC)
+- Layer 4 Transport: TCP / QUIC
+
+- Client -> request
+- Server -> response
+
+<img src="./img/http request.png"></img>
+<img src="./img/http response.png"></img>
