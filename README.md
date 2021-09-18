@@ -47,3 +47,27 @@ Layer 6 Presentation: Decrypt if necessary (HTTPS)
 ```
 Layer 7 Application: Get/10.0.0.3.80 - HTTP Header, Cookies, Content-Type,...
 ```
+
+## TCP - Transmission Control Protocol
+- Layer 7 Application: HTTP ver1.0 ver1.1 ver2.0 ver3.0(QUIC)
+- Layer 4 Transport: TCP
+
+- TCP transport needs to make a connection use (Three-way handshake)
+    (Advantages)
+    + Acknowledgement : cơ chế báo nhận
+    + Guaranteed Delivery : đảm bảo tin cậy
+    + Recovery : khôi phục
+    + Ordered Package : trật tự các gói tin (khi có nhiều gói tin)
+    + Flow Control : kiểm soát luồng
+    + Congestion: kiểm soát tắc nghẽn
+    + Pipeline : kiểu truyền Pipeline (cùng lúc nhận và cùng lúc thông báo)
+    (Defect)
+    + Larger Package : gói tin lớn
+    + More Bandwidth : tốn băng thông
+    + Slower than UDP : chậm hơn UDP
+    + Stateful : có trạng thái (khi một trong 2 thiết bị mất kết nối phải làm lại từ đầu)
+
+    (use TCP with)
+    HTTP SSH FTP(truyền file) Telnet SMTP IMAP/POP
+
+## UDP - User Datagram Protocol
