@@ -121,7 +121,7 @@ Layer 7 Application: Get/10.0.0.3.80 - HTTP Header, Cookies, Content-Type,...
 <img src="./img/http3.0_2.PNG"></img>
 
 ## Encryption
-<img src="./img/Encryption.png"></img>
+<img src="./img/Encryption.PNG"></img>
 
 ## HTTPS Hyper Text Transfer Protocol Secure
 - HTTP + TLS
