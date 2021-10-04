@@ -101,24 +101,24 @@ Layer 7 Application: Get/10.0.0.3.80 - HTTP Header, Cookies, Content-Type,...
 - Client -> request
 - Server -> response
 
-<img src="./img/http request.png"></img>
-<img src="./img/http response.png"></img>
+<img src="./img/http request.PNG"></img>
+<img src="./img/http response.PNG"></img>
 
 ## HTTP 1.0 - 1996
-<img src="./img/http1.0.png"></img>
+<img src="./img/http1.0.PNG"></img>
 
 ## HTTP 1.1 - 1999
-<img src="./img/http1.1.png"></img>
+<img src="./img/http1.1.PNG"></img>
 
 ## HTTP 2.0 - 2015
-<img src="./img/http2.0.png"></img>
-<img src="./img/http2.0_1.png"></img>
+<img src="./img/http2.0.PNG"></img>
+<img src="./img/http2.0_1.PNG"></img>
 
 ## QUIC - Quick Udp Internet Connections
 ## HTTP 3.0
-<img src="./img/http3.0.png"></img>
-<img src="./img/http3.0_1.png"></img>
-<img src="./img/http3.0_2.png"></img>
+<img src="./img/http3.0.PNG"></img>
+<img src="./img/http3.0_1.PNG"></img>
+<img src="./img/http3.0_2.PNG"></img>
 
 ## Encryption
 <img src="./img/Encryption.png"></img>
