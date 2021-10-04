@@ -101,8 +101,8 @@ Layer 7 Application: Get/10.0.0.3.80 - HTTP Header, Cookies, Content-Type,...
 - Client -> request
 - Server -> response
 
-<img src="./img/http request.PNG"></img>
-<img src="./img/http response.PNG"></img>
+<img src="./img/http request.png"></img>
+<img src="./img/http response.png"></img>
 
 ## HTTP 1.0 - 1996
 <img src="./img/http1.0.PNG"></img>
